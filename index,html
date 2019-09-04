@@ -170,16 +170,7 @@
         <a href="https://www.facebook.com/oluwadamilola.onasanya.7" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
         <a href="wa.me/2348188596815" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a>
       </footer>
-<!--
- <script>  
-        var forms = document.querySelectorAll('form');
-         forms[i].setAttribute('novalidate', true);
-        for (var i = 0; i < forms.length; i++) {}
-          
-         
-      </script>  
 
--->
      
 
   </body>
