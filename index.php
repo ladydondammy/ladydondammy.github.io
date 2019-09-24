@@ -8,15 +8,15 @@ if(isset($_POST ['submit'])){
   $message = $_POST['message'];
 
   
-  $data = $name . " , " . $email . " , " . $title . " , " . $message . "\r\n";
+ $data = $name . " , " . $email . " , " . $title . " , " . $message . "\r\n";
 
 
   $saveMgs = file_put_contents('contact.txt', $data, FILE_APPEND | LOCK_EX);
 
-  echo "<script type='text/javascript'>alert('Your message has been sent. I'll get back to you shortly')</script>";
-  echo "<script type'text/javascript'>document.location='esther.html'</script>";
-
-
+  echo "<pre> Full Name - $name <br>
+  Email - $email <br>
+  Subject - $title <br>
+  Message - $message <br></pre>";
 }
 
 
