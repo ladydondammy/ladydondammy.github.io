@@ -81,8 +81,10 @@
       margin-left: 25em;
     }
 
-    .logo-white {
-      text-align: center;
+    .tabs-pills h3 {
+      margin: 0;
+      padding-top: 10px;
+      font-size: 25px;
     }
 
 
@@ -114,7 +116,6 @@
       font-size: 16px;
       line-height: 26px;
       color: #514c65;
-
     }
 
     .hero-ky {
@@ -144,6 +145,12 @@
       background: #f7f4ef;
       border-radius: 50%;
     }
+
+    .logo-white {
+      padding-top: 15px;
+      text-align: center;
+    }
+
 
     .hero-dots {
       margin-left: 25em;
@@ -238,7 +245,6 @@
       margin-left: 0.5em;
       color: #ffbd49;
     }
-    
 
     /* SECTION 5 */
 
@@ -256,6 +262,7 @@
     .card-default>.card-heading {
       padding: 0;
       border-radius: 0;
+      color: #212121;
       border-bottom: 1px solid black;
       color: black;
     }
@@ -271,11 +278,6 @@
       line-height: 10px;
       background-color: #fff !important;
       border-bottom: 1px solid grey;
-      width: 700px;
-    }
-
-    .card-title .fa-plus {
-      color: #000;
     }
 
     .card-title>a {
@@ -292,9 +294,6 @@
 
     .card-list {
       border-bottom: 1px solid grey;
-      width: auto;
-      padding: 3px;
-      font-size: 14px;
     }
 
     .card-title>a:hover {
@@ -348,7 +347,10 @@
     .blockquote-footer::before {
       content: " ";
     }
-    
+
+    .card-title .fa-plus {
+      color: #000;
+    }
 
     .fa-plus {
       color: #3684eb;
@@ -557,11 +559,6 @@
         padding-left: 25px;
       }
 
-      .tabs-pills h3 {
-        margin: 0;
-        padding-top: 10px;
-      }
-
       .nav-link {
         padding: 1em;
       }
@@ -631,27 +628,13 @@
       .mystyle {
         margin-top: 130px !important;
       }
-
+ 
       .row {
         margin: 0 !important;
       }
 
       .logo-white {
-        padding-top: 15px;
+        padding-top: 20px;
       }
-
-      .card-title {
-        width: 400px;
-    
-      }
-
-      .card-body {
-        width: 400px;
-      }
-
-      .card-header {
-        width: 400px;
-      }
-
 
     }
