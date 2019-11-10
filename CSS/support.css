@@ -87,11 +87,6 @@
       margin-top: 1.4em;
     }
 
-    .logo-white {
-      padding-top: 15px;
-      text-align: center;
-    }
-
     .fl li {
       display: inline-flex;
     }
@@ -159,12 +154,6 @@
       margin-left: 12%;
       -webkit-animation: float 2s infinite alternate;
       animation: float 6s ease-in-out infinite;
-    }
-
-    .tabs-pills h3 {
-      margin: 0;
-      padding-top: 10px;
-      font-size: 25px;
     }
 
     @keyframes float {
@@ -243,14 +232,6 @@
     i {
       margin-left: 0.5em;
       color: #ffbd49;
-    }
-
-    .card-title .fa-plus {
-      color: #000;
-    }
-
-    .fa-plus {
-      color: #3684eb;
     }
 
     /* SECTION 5 */
@@ -496,8 +477,7 @@
     }
 
     /* RESPONSIVENESS */
-    @media screen and (min-width:0px) and (max-width: 420px) {
-
+    @media (min-width: 992px) {
       .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox !important;
         display: flex !important;
@@ -505,9 +485,9 @@
         flex-basis: auto;
         justify-content: flex-end;
       }
-    
+    }
 
-    
+    @media (max-width: 990px) {
 
       .eclipse,
       .eclipse2 {
@@ -632,6 +612,5 @@
       .row {
         margin: 0 !important;
       }
-    }
 
-    
+    }
