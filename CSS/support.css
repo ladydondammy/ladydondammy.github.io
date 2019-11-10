@@ -496,7 +496,8 @@
     }
 
     /* RESPONSIVENESS */
-    @media (min-width: 992px) {
+    @media screen and (min-width:0px) and (max-width: 420px) {
+
       .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox !important;
         display: flex !important;
@@ -504,9 +505,9 @@
         flex-basis: auto;
         justify-content: flex-end;
       }
-    }
+    
 
-    @media (max-width: 990px) {
+    
 
       .eclipse,
       .eclipse2 {
@@ -631,3 +632,6 @@
       .row {
         margin: 0 !important;
       }
+    }
+
+    
