@@ -81,16 +81,15 @@
       margin-left: 25em;
     }
 
-    .tabs-pills h3 {
-      margin: 0;
-      padding-top: 10px;
-      font-size: 25px;
-    }
-
 
     /* HERO SECTION */
     .hero1 {
       margin-top: 1.4em;
+    }
+
+    .logo-white {
+      padding-top: 15px;
+      text-align: center;
     }
 
     .fl li {
@@ -146,12 +145,6 @@
       border-radius: 50%;
     }
 
-    .logo-white {
-      padding-top: 15px;
-      text-align: center;
-    }
-
-
     .hero-dots {
       margin-left: 25em;
       margin-top: -12em;
@@ -166,6 +159,12 @@
       margin-left: 12%;
       -webkit-animation: float 2s infinite alternate;
       animation: float 6s ease-in-out infinite;
+    }
+
+    .tabs-pills h3 {
+      margin: 0;
+      padding-top: 10px;
+      font-size: 25px;
     }
 
     @keyframes float {
@@ -244,6 +243,14 @@
     i {
       margin-left: 0.5em;
       color: #ffbd49;
+    }
+
+    .card-title .fa-plus {
+      color: #000;
+    }
+
+    .fa-plus {
+      color: #3684eb;
     }
 
     /* SECTION 5 */
@@ -346,14 +353,6 @@
 
     .blockquote-footer::before {
       content: " ";
-    }
-
-    .card-title .fa-plus {
-      color: #000;
-    }
-
-    .fa-plus {
-      color: #3684eb;
     }
 
     /* FOOTER */
@@ -507,8 +506,7 @@
       }
     }
 
-    @media screen and (min-width:0px) and (max-width: 420px) {
-
+    @media (max-width: 990px) {
 
       .eclipse,
       .eclipse2 {
@@ -629,13 +627,7 @@
       .mystyle {
         margin-top: 130px !important;
       }
- 
+
       .row {
         margin: 0 !important;
       }
-
-      .logo-white {
-        padding-top: 20px;
-      }
-
-    }
